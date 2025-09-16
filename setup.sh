@@ -22,5 +22,5 @@ python3 -m spacy download en_core_web_lg
 echo "Downloading Enron dataset..."
 wget https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tar.gz -O enron.tgz
 mkdir -p maildir
-tar -xvzf enron.tgz -C .
+tar -xzf enron.tgz -C .
 rm enron.tgz
