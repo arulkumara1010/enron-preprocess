@@ -1,0 +1,7 @@
+
+pandas
+tqdm
+pyarrow
+presidio-analyzer
+presidio-anonymizer
+spacy
